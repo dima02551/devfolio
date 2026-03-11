@@ -1,0 +1,59 @@
+[
+  {
+    "id": "9axrv3brn9bmmlwqkp9",
+    "title": "DevFolio Platform",
+    "description": "Full-stack portfolio platform with auth, CMS dashboard, and blog.",
+    "longDesc": "A production-ready portfolio platform built with Next.js 14, TypeScript, and SQLite. Features include JWT authentication, blog CMS, project management dashboard, and responsive design.",
+    "image": null,
+    "demoUrl": "https://devfolio.vercel.app",
+    "githubUrl": "https://github.com/devenko/devfolio",
+    "tags": [
+      "Next.js",
+      "TypeScript",
+      "SQLite",
+      "Tailwind"
+    ],
+    "featured": true,
+    "order": 1,
+    "authorId": "w83pzmc5fummlwqkp5",
+    "createdAt": "2026-03-11T10:39:58.797Z"
+  },
+  {
+    "id": "rqfocofgcw8mmlwqkp9",
+    "title": "AI Chat Assistant",
+    "description": "Real-time AI-powered chat with streaming responses and conversation history.",
+    "longDesc": "Built with the OpenAI API and Next.js streaming. Features include multi-model support, conversation history, and a beautiful dark UI.",
+    "image": null,
+    "demoUrl": "https://ai-chat.vercel.app",
+    "githubUrl": "https://github.com/devenko/ai-chat",
+    "tags": [
+      "OpenAI",
+      "Next.js",
+      "WebSockets",
+      "AI"
+    ],
+    "featured": true,
+    "order": 2,
+    "authorId": "w83pzmc5fummlwqkp5",
+    "createdAt": "2026-03-11T10:39:58.797Z"
+  },
+  {
+    "id": "v3nupo5y75mmlwqkp9",
+    "title": "E-Commerce Dashboard",
+    "description": "Modern analytics dashboard for e-commerce with real-time metrics.",
+    "longDesc": "A comprehensive dashboard built with Recharts and Next.js. Displays sales metrics, user analytics, and inventory management.",
+    "image": null,
+    "demoUrl": "https://ecom-dash.vercel.app",
+    "githubUrl": "https://github.com/devenko/ecom-dashboard",
+    "tags": [
+      "React",
+      "Recharts",
+      "Dashboard",
+      "Analytics"
+    ],
+    "featured": false,
+    "order": 3,
+    "authorId": "w83pzmc5fummlwqkp5",
+    "createdAt": "2026-03-11T10:39:58.797Z"
+  }
+]

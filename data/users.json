@@ -1,0 +1,11 @@
+[
+  {
+    "id": "w83pzmc5fummlwqkp5",
+    "email": "admin@devfolio.dev",
+    "password": "$2b$12$Rzbx.V7fl8usrfvh1Sl2Lu16k.Eb7o69q56aFcxilfLO1xuJ5zYHK",
+    "name": "Alex Devenko",
+    "role": "admin",
+    "bio": "Full-stack developer passionate about building elegant solutions. 5+ years of experience with React, Next.js, and Node.js.",
+    "createdAt": "2026-03-11T10:39:58.793Z"
+  }
+]

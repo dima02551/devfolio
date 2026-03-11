@@ -1,0 +1,54 @@
+[
+  {
+    "id": "9zqdo6m8u9mmlwqkp9",
+    "title": "Building a Modern Portfolio with Next.js 14",
+    "slug": "building-modern-portfolio-nextjs-14",
+    "excerpt": "Learn how to build a production-ready developer portfolio using the latest Next.js features including App Router, Server Components, and more.",
+    "content": "# Building a Modern Portfolio with Next.js 14\n\nIn this article, we'll explore how to build a stunning developer portfolio using Next.js 14 with the App Router.\n\n## Why Next.js?\n\nNext.js offers the perfect balance of performance and developer experience. With server components, you get lightning-fast pages without sacrificing interactivity.\n\n## Project Structure\n\nA well-organized portfolio needs clear separation of concerns:\n\n- **app/** — Your page routes\n- **components/** — Reusable UI components\n- **lib/** — Utilities and database access\n- **public/** — Static assets\n\n## Authentication\n\nFor a portfolio with a CMS dashboard, JWT-based authentication works perfectly. We use `jose` for edge-compatible token signing.\n\n## Conclusion\n\nWith Next.js 14, you can build a world-class portfolio that's fast, SEO-friendly, and easy to manage.",
+    "published": true,
+    "tags": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Portfolio"
+    ],
+    "views": 142,
+    "authorId": "w83pzmc5fummlwqkp5",
+    "createdAt": "2026-03-04T10:39:58.797Z",
+    "updatedAt": "2026-03-11T10:39:58.797Z"
+  },
+  {
+    "id": "5pej5hz2gyvmmlwqkp9",
+    "title": "Mastering TypeScript: Advanced Patterns",
+    "slug": "mastering-typescript-advanced-patterns",
+    "excerpt": "Deep dive into advanced TypeScript patterns including conditional types, mapped types, template literals, and more to level up your code.",
+    "content": "# Mastering TypeScript: Advanced Patterns\n\nTypeScript's type system is incredibly powerful. Let's explore some advanced patterns.\n\n## Conditional Types\n\nConditional types allow you to create types that depend on other types:\n\n```typescript\ntype IsString<T> = T extends string ? 'yes' : 'no';\n```\n\n## Mapped Types\n\nMapped types allow you to transform existing types:\n\n```typescript\ntype Readonly<T> = {\n  readonly [K in keyof T]: T[K];\n};\n```\n\n## Template Literal Types\n\nPowerful for creating typed string patterns:\n\n```typescript\ntype EventName = `on${Capitalize<string>}`;\n```",
+    "published": true,
+    "tags": [
+      "TypeScript",
+      "JavaScript",
+      "Programming"
+    ],
+    "views": 89,
+    "authorId": "w83pzmc5fummlwqkp5",
+    "createdAt": "2026-02-25T10:39:58.797Z",
+    "updatedAt": "2026-03-11T10:39:58.797Z"
+  },
+  {
+    "id": "1i0n1dras84mmlwqkp9",
+    "title": "The Art of Clean Code: Principles That Matter",
+    "slug": "art-of-clean-code-principles",
+    "excerpt": "Explore timeless clean code principles that every developer should know — from naming conventions to SOLID principles and beyond.",
+    "content": "# The Art of Clean Code\n\nWriting code is easy. Writing **clean** code is an art form.\n\n## Meaningful Names\n\nNames should reveal intent. `d` tells us nothing. `elapsedTimeInDays` tells us everything.\n\n## Single Responsibility\n\nEvery function should do one thing, and do it well. If you need \"and\" to describe what a function does, it does too much.\n\n## Comments Are Lies\n\nCode should be self-explanatory. Comments rot. Code doesn't lie (well, usually).",
+    "published": false,
+    "tags": [
+      "Clean Code",
+      "Best Practices",
+      "Architecture"
+    ],
+    "views": 0,
+    "authorId": "w83pzmc5fummlwqkp5",
+    "createdAt": "2026-03-11T10:39:58.797Z",
+    "updatedAt": "2026-03-11T10:39:58.797Z"
+  }
+]
